@@ -1,5 +1,8 @@
 # Todoist Shortcuts Nativefier
 
+
+
+
 ## Why?
 
 [Todoist](https://todoist.com) is a powerful todo-list and task manager. It offers a [MacOS Application](https://itunes.apple.com/ca/app/todoist-organize-your-life/id585829637), which provides a dedicated application that has a _quick task adding_ feature. The only issue is that Todoist doesn't have strong keyboard navigation and shortcuts. Enter [todoist-shortcuts](https://github.com/mgsloan/todoist-shortcuts) which is a browser extension that adds these missing functionalities to the web client. Unfortunately, there is no way to get this extension in the native application...
@@ -19,11 +22,14 @@ Unfortunately, `nativefier` has an issue with [injecting multiple JavaScript fil
 First, you install the dependencies:
 `npm install`
 
-Next, we need to download `todoist-shortcuts`:
-`npm run downloadTodoistShortcuts`
+// BELOW ARE LH00000000 CHANGES
+change contents of RELEASE_NO to latest release number of todoist-shortcuts https://github.com/mgsloan/todoist-shortcuts/releases (make sure the file doesn't end with a line break)
 
-Finally, we build the application:
-`npm run buildApplication`
+run
+`sh rebuild.sh`
+
+// END LH00000000 CHANGES
+
 
 ## Workflow using Both Applications
 
